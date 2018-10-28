@@ -1,0 +1,31 @@
+page-home {
+   .container {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    
+        .container-timer-count {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .timer-count{
+                font-size: 4.2em;
+            }
+            .timer-signal {
+                width: 40vw;
+                height: 40vw;
+                border-radius: 100%;
+                background: red;
+
+                &.stop {
+                    background: green;
+                }
+            }
+        }
+
+        .container-buttons {
+
+        }
+    }
+}
